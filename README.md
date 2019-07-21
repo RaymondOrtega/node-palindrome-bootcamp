@@ -2,21 +2,9 @@
 
 ### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
 
-### How to submit your code for review:
+![alt tag](land.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
+### lessons learned:
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+I learned my fist idea going into solving a solution might not always be the most efficient solution. I first tried using loops that would loop though the sting values coming from an input and comparing the values. I began to run into to many edge cases that lead to many lines of code. I wasn't till much later on I learned that I could just take the value of the input reverse the sting and compare it against the original value.  Saving me many lines of code.
 ```
